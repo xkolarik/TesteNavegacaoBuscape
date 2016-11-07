@@ -24,6 +24,6 @@ public class TesteNavegacao {
 		// System.out.println(submarino);
 		// System.out.println(result);
 
-		Assert.assertEquals(submarino, result);
+		Assert.assertEquals("Resultado não Esperado: ", submarino, result);
 	}
 }
