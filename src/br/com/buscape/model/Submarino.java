@@ -4,7 +4,9 @@ import br.com.buscape.util.Direcao;
 
 public class Submarino {
 
-	private int x, y, z;
+	private int x;
+	private int y;
+	private int z;
 	private Direcao direcao;
 
 	public Submarino() {
@@ -46,6 +48,17 @@ public class Submarino {
 	@Override
 	public String toString() {
 		return x + " " + y + " " + z + " " + direcao.name();
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((direcao == null) ? 0 : direcao.hashCode());
+		result = prime * result + x;
+		result = prime * result + y;
+		result = prime * result + z;
+		return result;
 	}
 
 	@Override
