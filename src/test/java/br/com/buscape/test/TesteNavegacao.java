@@ -13,9 +13,7 @@ public class TesteNavegacao {
 	public void test() {
 
 		ControllerSubmarino navegacao = new ControllerSubmarino();
-
 		Submarino result = navegacao.comandosEntrada("RMMLMMMDDLL");
-
 		Submarino submarino = new Submarino();
 
 		submarino.setX(2);
