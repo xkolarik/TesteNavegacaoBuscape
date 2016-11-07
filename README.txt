@@ -24,7 +24,7 @@ A saída deverá conter a coordenada final do submarino junto com sua direção, com
 1 2 -1 NORTE
 
 
- # OBS no Exemplo do Git a Saida esta 1 2 -1 NORTE (Fiquei em duvidas se é possivel o eixo Z ficar -1 utilizando os comandos LMRDDMMUU)
+ # OBS Referente a essa Saida  1 2 -1 NORTE (Fiquei em duvidas se é possivel o eixo Z ficar -1 utilizando os comandos LMRDDMMUU)
 
 		
 		// Submarino result = navegacao.comandosEntrada("LMRDDMMUU");
@@ -38,8 +38,10 @@ A saída deverá conter a coordenada final do submarino junto com sua direção, com
 		
 		//Assert.assertEquals(submarino, result);
 		
+		Acredito que a saída seria  1 2 0 NORTE!
 		
-O Segundo Exemplo funciona corretamente!
+		
+O Segundo Exemplo foi feito corretamente!
 
 Exemplo de execução:
 
